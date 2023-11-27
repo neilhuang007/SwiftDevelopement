@@ -1,0 +1,65 @@
+/* body and text style*/
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    background-color: #171a21;
+    margin: 0;
+    padding: 0;
+}
+
+/* main container*/
+.container {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #101318;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* author info */
+.author {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* inventor part */
+.inventor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.finder_picture {
+    width: 220px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.inventor_text {
+    text-align: justify;
+}
+
+/* info part */
+.info-container {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+}
